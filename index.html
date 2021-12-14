@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="scripts.js" defer></script>
+    <h1>Check any city's Weather!</h1>
+</head>
+
+<body>
+    <phone>
+        <div id=top></div>
+        <div id=bottom></div>
+        <div id=left></div>
+        <div id=right></div>
+        <div id=circle></div>
+
+        
+        <form>
+            <input type="text" id="search" class="search-bar" placeholder="Search"><br>
+            <temp>
+                <p>Temperature in: </p>
+                <input type="radio" id="m" name="temperature" value="Celsius" checked="checked">
+                <label for="Celsius">°C</label>
+                <input type="radio" id="f" name="temperature" value="Fahrenheit">
+                <label for="Fahrenheit">°F</label><br>
+            </temp>
+        </form>
+
+        <button id="submit" class="search">🔍</button>
+
+        <div class="weather">
+            <h2 class="city">Weather in Chandler</h2>
+            <div class="temp">19°C</div>
+            <img src="" alt="" class="icon">
+            <div class="description">Parlty Cloudly</div>
+            <div class="humidity">Humidity: 38%</div>
+
+        </div>
+
+    </phone>
+</body>
+
+</html>>

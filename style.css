@@ -1,0 +1,125 @@
+body{
+    background-color: whitesmoke;
+    
+}
+
+h1{
+    position:absolute;
+    left: 400px;
+    background-color: rgb(127, 225, 255);
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(0, 0, 0);
+}
+
+
+#search{
+    
+    font-family: 'Source Sans 3', monospace;
+    font-size: 15px;
+    position:absolute;
+    left:480px;
+    top:160px;
+}
+
+temp{
+    font-family: 'Source Sans 3', monospace;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    left: 480px;
+    top: 200px;
+}
+#submit{
+    border-radius: 50%;
+    font-family: 'Source Sans 3', monospace;
+    font-size: 20px;
+    position: absolute;
+    top: 150px;
+    left: 720px;
+}
+
+p{
+    background-color: cadetblue;
+}
+
+.weather{
+    font-family: 'Source Sans 3', monospace;
+    font-size: 15px;
+    position: absolute;
+    left: 480px;
+    top: 300px;
+}
+.city{
+    background-color: cornflowerblue;
+}
+
+.icon{
+    position: absolute;
+    left: 190px;
+    bottom: 10px;
+}
+
+.temp, .description, .humidity{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+#top{
+    height: 30px;
+    width: 350px;
+    background-color: rgb(24, 31, 29);
+
+    border-radius: 10px;
+    position: absolute;
+    left: 450px;
+    top: 100px;
+
+}
+
+#bottom{
+    height: 30px;
+    width: 350px;
+    background-color: rgb(24, 31, 29);
+
+    border-radius: 10px;
+    position: absolute;
+    left: 450px;
+    top: 490px;
+
+}
+
+#left{
+
+    height: 400px;
+    width: 20px;
+    border-radius: 5px;
+    background-color: rgb(24, 31, 29);
+    position: absolute;
+    left: 450px;
+    top: 100px;
+    
+}
+
+#right{
+    height: 400px;
+    width: 20px;
+    border-radius: 5px;
+    background-color: rgb(24, 31, 29);
+    position: absolute;
+    left: 780px;
+    top: 100px;
+
+}
+
+#circle{
+    height: 30px;
+    width: 32px;
+    background-color: bisque;
+    border-radius: 50%;
+    display: inline-block;
+
+    position: absolute;
+    left: 620px;
+    top: 490px;
+}
