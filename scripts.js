@@ -1,7 +1,7 @@
 
 let weather = {
     fetchWeather: function(city, temp){
-        const accessKey = 'b89eaf6ff3b421082b9f1c48a5187aa4';
+        const accessKey = 'your access key';
         const url = `http://api.weatherstack.com/current?access_key=${accessKey}&query=${city}&units=${temp}`;
     
         fetch(url)
