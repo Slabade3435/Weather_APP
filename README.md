@@ -1,2 +1,2 @@
 # Weather_APP
- Choose a City and get the current weather!
+Type a City name and get the current weather!
